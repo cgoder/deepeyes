@@ -1,0 +1,69 @@
+{
+	"conf": {
+		"debug": true,
+		"log_level": "debug",
+		"http_port": ":8084",
+		"http_dir": "web",
+		"http_login": "admin",
+		"http_password": "admin",
+		"http_debug": false,
+		"http_demo": true,
+		"rtsp_port": ":5541"
+	},
+	"program": {
+		"GXTV_rtmp": {
+			"channels": {
+				"0": {
+					"on_demand": true,
+					"url": "rtmp://58.200.131.2:1935/livetv/gxtv"
+				}
+			},
+			"name": "GXTV_rtmp"
+		},
+		"HNTV_rtmp": {
+			"channels": {
+				"0": {
+					"on_demand": true,
+					"url": "rtmp://58.200.131.2:1935/livetv/hunantv"
+				}
+			},
+			"name": "HNTV_rtmp"
+		},
+		"test1_rtsp": {
+			"channels": {
+				"0": {
+					"on_demand": true,
+					"url": "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov"
+				}
+			},
+			"name": "test1_rtsp"
+		},
+		"local_rtmp": {
+			"channels": {
+				"0": {
+					"on_demand": true,
+					"url": "rtmp://localhost:1935/live/test"
+				}
+			},
+			"name": "local_rtmp"
+		},
+		"test2_rtsp": {
+			"channels": {
+				"0": {
+					"on_demand": true,
+					"url": "rtsp://170.93.143.139:1935/rtplive/0b01b57900060075004d823633235daa"
+				}
+			},
+			"name": "test2_rtsp"
+		},
+		"test3_rtsp": {
+			"channels": {
+				"0": {
+					"on_demand": true,
+					"url": "rtsp://akaimp.duckdns.org/live/ch00_0"
+				}
+			},
+			"name": "test3_rtsp"
+		}
+	}
+}
