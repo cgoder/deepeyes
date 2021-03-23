@@ -1,3 +1,3 @@
 ## THX
 
-*  [RTSPtoWeb](https://github.com/deepch/vdk)
+*  [VDK](https://github.com/deepch/vdk)
